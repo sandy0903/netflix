@@ -7,7 +7,7 @@ const Input = () => {
 
   return (
     <>
-      <p className="text-xl tracking-wider mt-[4rem] lg:w-[100%] sm:w-[80%] w-[60%] mx-auto	">
+      <p className="text-sm sm:text-xl tracking-wider mt-[1rem] sm:mt-[3rem] lg:mt-[4rem] lg:w-[100%]  w-[80%] mx-auto	">
         Bạn đã sẵn sàng xem chưa? Nhập email để tạo hoặc kích hoạt lại tư cách
         thành viên của bạn.
       </p>

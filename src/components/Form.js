@@ -38,7 +38,7 @@ const Form = ({title}) => {
       });
     }
   return (
-    <div className='w-[430px] h-[650px] bg-[rgba(0,0,0,0.7)] absolute p-[4rem] top-[57%] z-[10] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white '>
+    <div className='w-[90%] h-[500px] md:w-[430px] md:h-[650px] bg-[rgba(0,0,0,0.7)] absolute p-[2rem] md:p-[4rem] top-[57%] z-[10] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white '>
         <h1 className="text-3xl font-bold capitalize">{newTitle}</h1>
         <form onSubmit={newTitle=='login' ? handleSignIn : handleSignUp}>
             <input type="email" placeholder='Email hoặc số điện thoại' onChange={(e)=>setEmail(e.target.value)}  className="w-full rounded-md bg-slate-800 px-2 py-3 mb-2 mt-[2rem] text-slate-100 border-none outline-none"/>

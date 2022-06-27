@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = ({bgColor}) => {
   return (
-    <div className={` w-[80%] sm:w-[70%]  ${bgColor} mx-auto mt-[4rem] text-slate-500 text-sm font-extralight cursor-pointer`}>
+    <div className={` w-full sm:w-[70%]  ${bgColor} mx-auto mt-[4rem] text-slate-500 text-sm font-extralight cursor-pointer`}>
       <p className="hover:underline mb-8">Bạn có câu hỏi? Liên hệ với chúng tôi.</p>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-x-4 ">
         <ul>

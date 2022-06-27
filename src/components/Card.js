@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ title, text, media, flex }) => {
 
   return (
-    <div className="w-full h-auto relative top-[-90px] border-b-8 border-slate-800  px-[45px] py-[70px]">
+    <div className="w-full h-auto relative top-[-90px] border-b-8 border-slate-800  px-[30px] sm:px-[45px] py-[70px]">
       <div
         className={flex ? "flex flex-col lg:flex-row-reverse items-center max-w-[1100px] mx-auto" : "flex flex-col lg:flex-row items-center max-w-[1100px] mx-auto"}
       >

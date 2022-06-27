@@ -35,7 +35,7 @@ const Signup = () => {
           <Link to="/"><img src={logo} className="" /></Link>
         </div>
         <div className="z-[100]">
-          <button className="border border-white bg-transparent py-1 px-3 sm:px-5 rounded-sm">
+          <button className="border border-white bg-transparent py-1 px-3 sm:px-5 rounded-sm hidden sm:block">
             Tiếng Việt
           </button>
           <button className="bg-red-600	py-1 px-3 sm:px-5 rounded-md ml-4 sm:mr-0 mr-5">

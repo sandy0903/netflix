@@ -13,13 +13,13 @@ const Home = () => {
         </div>
         <ul className="flex items-center">
           <li className="font-bold mr-3 cursor-pointer">
-            <a href="#">Poppular films</a>
+            <a href="#" className="hidden sm:block sm:text-sm">Poppular films</a>
           </li>
           <li className="font-bold mr-3 cursor-pointer">
-            <a href="#">Now Playing</a>
+            <a href="#" className="hidden sm:block sm:text-sm">Now Playing</a>
           </li>
           <li className="font-bold mr-3 cursor-pointer">
-            <a href="#">Upcoming Films</a>
+            <a href="#" className="hidden sm:block sm:text-sm">Upcoming Films</a>
           </li>
         </ul>
       </nav>
